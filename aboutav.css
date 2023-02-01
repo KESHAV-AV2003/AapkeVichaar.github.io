@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+body{
+    height: 600px;
+}
+#logo {
+    margin: 5px 4px 5px 4px;
+}
+
+#logo img {
+    height: 150px;
+    margin: 5px 4px 5px 4px;
+}
+
+/* Navbar-List Styling  */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    background-color: transparent;
+}
+
+#navbar::before {
+    content: "";
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    color: rgb(255, 255, 255);
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+#navbar ul li a {
+    color: rgb(16, 15, 15);
+    display: block;
+    padding: 3px 23px 3px 22px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 26px;
+    font-weight: 100px;
+
+}
+
+#navbar ul li a:hover {
+    color: rgb(12, 101, 236);
+    background-color: rgb(255, 255, 255);
+}
+
+.wta1 {
+    text-align:right;
+    margin-top: -855px;
+    margin-right: 52px;
+}
+
+.intro01{
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    margin-top: 130px;
+    margin-left: 25%;
+    font-size: 25px;
+    font-family: 'Aboreto', cursive;
+}
+.joc{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+#poster0{
+    margin-left: 450px;
+    margin-top: 20px;
+    position: relative;
+}
+#pjoin{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+}
+#poster0 #pjoin {
+    position: absolute;
+    top: 67%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #000;
+    color: white;
+    font-size: 16px;
+    padding: 16px 28px;
+    /* border: none; */
+    cursor: pointer;
+    border-radius: 30px;
+    text-decoration: none;
+  }

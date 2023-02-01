@@ -1,0 +1,177 @@
+/* CSS Reset  */
+*{
+    margin: 0px;
+    padding: 0px;
+    /* height: 1600px; */
+}
+/* Css Variables */
+:root{
+    --navbar-height: 50px;
+}
+/* Navigation Bar  */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+}
+#navbar::before{
+    content: "";
+    background-color: darksalmon;
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+/* Logo and Image  */
+#logo{
+    margin: 5px 4px 5px 4px;
+}
+#logo img{
+    height: 150px;
+    margin: 5px 4px 5px 4px;
+}
+/* Navbar-List Styling  */
+
+ 
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    color: lightslategray;
+    list-style: none;
+    font-size: 1.2rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 23px 3px 22px;
+    text-decoration: none;
+    border-radius: 10px;
+
+}
+#navbar ul li a:hover{
+    color: rgb(12, 101, 236);
+    background-color: rgb(253, 222, 253);
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 695px;
+    top: 0px;
+}
+#home::before{
+    content: "";
+    background: url(AV2\ BG2.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Pacifico', cursive;
+}
+/* Inspire classes */
+#inspire{
+    margin: 30px 0px;
+    display: flex;
+}
+#inspire .box{
+    border: 2px solid white;
+    padding: 40px;
+    margin: 35px 74px;
+    border-radius: 10px;
+    background-color: rgb(245, 213, 109);
+    transition: all 1s ease-in;
+}
+#inspire .box:hover{
+    background-color:peru;
+}
+#inspire .box img{
+    height: 150px;
+    width: 250px;
+    transition: all 1s ease-in;
+}
+#inspire .box img:hover{
+    height: 200px;
+    width: 300px;
+}
+#inspire .box p{
+    font-size: 1.1rem;
+    font-family:Verdana;
+}
+
+/* Utility classes */
+.h-primary{
+    font-size: 3.2rem;
+    padding: 20px;
+    font-family: 'Caveat', cursive;
+}
+.h-secondary{
+    font-size: 2.2rem;
+    padding: 20px;
+}
+.btn{
+    padding: 10px 20px;
+    border: 2px solid rgb(255, 254, 254);
+    cursor: pointer;
+    background-color: transparent;
+    color:rgb(0, 0, 0);
+    margin-top: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+.btn:hover{
+    background-color: rgb(239, 200, 200);
+    text-decoration: none;
+
+}
+.center{
+    text-align: center;
+}
+/* Clients Section  */
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.client-item{
+    margin:45px 97px 8px 53px;
+    padding: 15px;
+}   
+.client-item img{
+    height: 180px;
+    width: 200px;
+    transition: all 1s ease-in-out;
+}
+.client-item img:hover{
+    background-color: rgb(252, 221, 221);
+    border-radius: 5px;
+    cursor: pointer;
+    height: 200px;
+    width: 220px;
+}
+.tsh{
+    color: #1f9fff;
+    text-align: center;
+    margin-top: -25px;
+}
+
