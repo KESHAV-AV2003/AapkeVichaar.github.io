@@ -1,23 +1,26 @@
 /* CSS Reset  */
-*{
+* {
     margin: 0px;
     padding: 0px;
     /* height: 1600px; */
 }
+
 /* Css Variables */
-:root{
+:root {
     --navbar-height: 50px;
 }
+
 /* Navigation Bar  */
-#navbar{
+#navbar {
     display: flex;
     align-items: center;
     position: absolute;
     top: 0px;
 }
-#navbar::before{
+
+#navbar::before {
     content: "";
-    background-color: darksalmon;
+    background-color: rgb(255, 255, 255);
     position: absolute;
     height: 200px;
     width: 100%;
@@ -26,26 +29,29 @@
 }
 
 /* Logo and Image  */
-#logo{
+#logo {
     margin: 5px 4px 5px 4px;
 }
-#logo img{
+
+#logo img {
     height: 150px;
     margin: 5px 4px 5px 4px;
 }
+
 /* Navbar-List Styling  */
 
- 
-#navbar ul{
+
+#navbar ul {
     display: flex;
 }
 
-#navbar ul li{
+#navbar ul li {
     color: lightslategray;
     list-style: none;
     font-size: 1.2rem;
 }
-#navbar ul li a{
+
+#navbar ul li a {
     color: white;
     display: block;
     padding: 3px 23px 3px 22px;
@@ -53,11 +59,13 @@
     border-radius: 10px;
 
 }
-#navbar ul li a:hover{
+
+#navbar ul li a:hover {
     color: rgb(12, 101, 236);
-    background-color: rgb(253, 222, 253);
+    background-color: rgb(255, 255, 255);
 }
-#home{
+
+#home {
     display: flex;
     flex-direction: column;
     padding: 10px 200px;
@@ -66,7 +74,8 @@
     height: 695px;
     top: 0px;
 }
-#home::before{
+
+#home::before {
     content: "";
     background: url(AV2\ BG2.jpg) no-repeat center center/cover;
     position: absolute;
@@ -75,19 +84,22 @@
     z-index: -1;
     opacity: 1;
 }
-#home h1{
+
+#home h1 {
     color: white;
     text-align: center;
     font-family: 'Dancing Script', cursive;
 }
-#home p{
+
+#home p {
     color: white;
     text-align: center;
     font-size: 1.5rem;
     font-family: 'Pacifico', cursive;
 }
+
 /* Inspire classes */
-.inspire-container{
+.inspire-container {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -95,7 +107,7 @@
     width: 100%;
 }
 
-#inspire{
+#inspire {
     margin-top: 15vh;
     display: grid;
     flex-direction: row;
@@ -104,7 +116,8 @@
     grid-template-columns: repeat(3, auto);
 
 }
-#inspire .box{
+
+#inspire .box {
     border: 2px solid white;
     padding: 10px;
     width: 53vh;
@@ -113,28 +126,50 @@
     background-color: rgb(245, 213, 109);
     transition: all 1s ease-in;
     box-sizing: border-box;
+    position: relative;
+    display: inline-block;
 
 }
-#inspire .box:hover{
-    background-color:peru;
+
+#inspire .box:hover {
+    background-color: peru;
 }
-#inspire .box img{
+
+#inspire .box img {
     height: 150px;
     width: 250px;
     transition: all 1s ease-in;
     margin-left: 30px;
+    /* transition: transform 2s; */
+
 }
-#inspire .box img:hover{
+.box:hover .overlay-image {
+    /* opacity: -1; */
+}
+#inspire .box img:hover {
     height: 200px;
     width: 300px;
+    /* transform: scaleX(-1); */
+
 }
-#inspire .box p{
+
+#inspire .box p {
     font-size: 1.1rem;
-    font-family:Verdana;
+    font-family: Verdana;
+}
+
+.box .overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+    transition: opacity 0.5s;
 }
 
 /* Utility classes */
-.h-primaryy{
+.h-primaryy {
     font-size: 3.2rem;
     font-family: 'Caveat', cursive;
     margin-left: 80vh;
@@ -142,119 +177,143 @@
     width: 60vh;
 
 }
-.h-primary{
+
+.h-primary {
     font-size: 3.2rem;
     padding: 20px;
     font-family: 'Caveat', cursive;
     margin-left: 10vh;
     width: 100vh;
 }
-.h-secondary{
+
+.h-secondary {
     font-size: 2.2rem;
     padding: 20px;
 }
-.btn{
+
+.btn {
     padding: 10px 20px;
     border: 2px solid rgb(255, 254, 254);
     cursor: pointer;
     background-color: transparent;
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     margin-top: 30px;
     font-size: 1rem;
     font-weight: bold;
     border-radius: 5px;
     text-decoration: none;
-    
+
 }
-.btn:hover{
+
+.btn:hover {
     background-color: rgb(239, 200, 200);
     text-decoration: none;
 
 }
-.knowmore1{
+
+.knowmore1 {
     margin-top: 2vh;
     margin-left: 30vh;
 }
-.knowmore2{
+
+.knowmore2 {
     margin-left: 31vh;
     margin-top: 2vh;
 }
-.knowmore4{
+
+.knowmore4 {
     margin-left: 33vh;
     margin-top: 15vh;
 }
-.knowmore6{
+
+.knowmore6 {
     margin-left: 33vh;
     margin-top: 5.4vh;
 }
-.center{
+
+.center {
     text-align: center;
     /* margin-left: 50vh; */
 }
-.copyright{
+
+.copyright {
     text-align: center;
-    margin-left: -10vh;
+    margin-left: 8vh;
+    margin-bottom: 1vh;
     /* margin-left: 50vh; */
 }
 
 /* Clients Section  */
-#clients{
+#clients {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.client-item{
-    margin:45px 97px 8px 53px;
+
+.client-item {
+    margin: 45px 97px 8px 53px;
     padding: 15px;
-}   
-.client-item img{
+}
+
+.client-item img {
     height: 180px;
     width: 200px;
     transition: all 1s ease-in-out;
 }
-.client-item img:hover{
+
+.client-item img:hover {
     background-color: rgb(252, 221, 221);
     border-radius: 5px;
     cursor: pointer;
     height: 200px;
     width: 220px;
 }
-.tsh{
+
+.tsh {
     color: #1f9fff;
     text-align: center;
     margin-top: -25px;
 }
-#fImg{
+
+#fImg {
     width: 40vh;
-    margin-left: 80vh;
+    margin-left: 90vh;
 }
-.fa-fa-google{
+
+.fa-fa-google {
     margin-left: 3vh;
     font-size: 50px;
     cursor: pointer;
     padding: 20px;
 }
-.fa-git{
+
+.fa-git {
     padding: 20px;
     margin-left: 15px;
     cursor: pointer;
 }
-.fa-instagram{
+
+.fa-instagram {
     padding: 20px;
     cursor: pointer;
     margin-left: 15px;
 }
-.fa-linkedin-square{
+
+.fa-linkedin-square {
     padding: 20px;
     cursor: pointer;
     margin-left: 15px;
 }
-.ic{
+
+.ic {
     width: 100vh;
     /* border: 2px solid black; */
-    margin-left: 73vh;
+    margin-left: 84vh;
     /* border-radius: 5px; */
     margin-top: -30px;
     padding: 20px;
 }
 
+/* .copyright{
+    margin-left: 60vh;
+} */
