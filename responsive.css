@@ -1,0 +1,62 @@
+@media (max-width: 768px){
+
+#navbar li{
+    display: none;
+}
+#logo{
+    display: none;
+
+}
+#home::before{
+    margin-top: -20vh;
+    width: 230vh;
+    /* margin-left: 20vh; */
+}
+.h-primary{
+    /* margin-bottom: 20rem; */
+    margin-left: 28rem;
+    margin-top: 20vh;
+}
+.homeP{
+    margin-left: 17rem;
+    margin-bottom: 70vh;
+    width: 170vh;
+}
+.bothHP{
+    margin-top: 30vh;
+}
+.inspire-container{
+    margin-top: -15vh;
+}
+.h-primaryy{
+    margin-right: 20vh;
+}
+#inspire{
+    display: flex;
+    width: 79vh;
+    justify-content: center;
+    margin-left: 9vh;
+}
+#inspire .box{
+    width: 50rem;
+    padding: 30vh;
+}
+#inspire .box img{
+    margin-top: -15vh;
+    width: 50vh;
+    margin-left: 5rem;
+}
+.center{
+    width: 100vh;
+    margin-top: 4vh;
+    margin-left: -12vh;
+}
+#fImg{
+    margin-left: 70vh;
+}
+.ic{
+    margin-left: 60vh;
+}
+
+
+}
