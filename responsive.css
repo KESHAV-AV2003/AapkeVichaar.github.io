@@ -1,11 +1,10 @@
 @media (max-width: 768px){
 
 #navbar li{
-    display: none;
+    margin-left: 10vh;
 }
 #logo{
     display: none;
-
 }
 #home::before{
     margin-top: -20vh;
@@ -20,7 +19,7 @@
 .homeP{
     margin-left: 17rem;
     margin-bottom: 70vh;
-    width: 170vh;
+    width: 230vh;
 }
 .bothHP{
     margin-top: 30vh;
