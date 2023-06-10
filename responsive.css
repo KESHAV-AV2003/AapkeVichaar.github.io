@@ -66,25 +66,24 @@
     }
 
     #inspire {
-        /* margin-top: 10vh; */
+        margin-top: 100vh;
         display: flex;
         flex-direction: row;
-        margin-left: -75vh;
+        margin-left: 20vh;
         flex-wrap: wrap;
         grid-template-columns: repeat(3, auto)
     }
 
     #inspire .box {
-        width: 50rem;
-        padding: 30vh;
+        width: 35rem;
+        padding: 15vh;
         position: relative;
         display: flex;
         flex-wrap: wrap;
-        
     }
 
     #inspire .box img {
-        margin-top: -15vh;
+        margin-top: -5vh;
         width: 50vh;
         margin-left: 5rem;
     }
