@@ -13,7 +13,7 @@
 
     }
     #home::before {
-        margin-top: -9vh;
+        margin-top: -12vh;
         width: 121%;
         margin-right: 10vh;
         height: 70vh;
@@ -50,7 +50,7 @@
         margin-right: 151vh;
         margin-top: 10vh;
         width: 50vh;
-        margin-left: -27vh;
+        margin-left: -27.5vh;
         font-size: 5vh;
     }
     .h-secondary{
@@ -63,29 +63,29 @@
         margin-left: -91vh;
         background-color: rgb(238, 237, 245);
         color: rgb(14, 104, 239);
-        width: 10vh;
-        margin-top: 81vh;
+        width: 15vh;
+        margin-top: 78vh;
     }
     .knowmore2{
         margin-left: -91vh;
         background-color: rgb(238, 237, 245);
         color: rgb(14, 104, 239);
-        width: 10vh;
-        margin-top: 81vh;
+        width: 15vh;
+        margin-top: 78vh;
     }
     .knowmore4{
         margin-left: -91vh;
         background-color: rgb(238, 237, 245);
         color: rgb(14, 104, 239);
-        width: 10vh;
-        margin-top: 81vh;
+        width: 15vh;
+        margin-top: 79vh;
     }
     .knowmore6{
         margin-left: -91vh;
         background-color: rgb(238, 237, 245);
         color: rgb(14, 104, 239);
-        width: 10vh;
-        margin-top: 81vh;
+        width: 15vh;
+        margin-top: 79vh;
     }
     
 
