@@ -50,7 +50,7 @@ function openMail() {
 }
 
 
-const openNav = document.getElementById('openNav');
+const openNav = document.getElementByClassName('openNav');
 const navbar = document.getElementById('navbar');
 
 openNav.addEventListener('click', function() {
