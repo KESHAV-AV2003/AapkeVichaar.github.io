@@ -9,12 +9,54 @@
         overflow-x:hidden;
     }
     #navbar{
-        display: none;
+        height: 76vh; /* 100% Full-height */
+        width: 20%; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0; /* Stay at the top */
+        left: 0;
+        background-color: #6c6969; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        /* padding-top: 60px; Place content 60px from the top */
+        transition: 0.5s
     }
-
+    #navbar.show {
+        left: 0; /* Show the navbar by setting left position to 0 */
+    }
+    #navbar ul li a{
+        text-decoration: none;
+        font-size: 1.5vh;
+        color: #ffffff;
+        width: 8vh;
+        margin-top: -33vh;
+        transition: 0.3s;
+        margin-left: -23vh;
+        padding-left: 10vh;
+        padding-right: 13vh;
+        margin-right: -1vh;
+        border: 1px solid;
+    }
+    #navabr ul li a:hover{
+        color: #f1f1f1;
+    }
+    .closebtn {
+        position: absolute;
+        margin-left: -130px;
+        margin-top: -33vh;
+        text-decoration: none;
+        color: black;
+    }
+    .tsh{
+        margin-left: 2vh;
+    }
+    #logo img{
+        width: 18vh;
+        height: 22vh;
+        margin-left: 2vh;
+    }
+      
     #logo {
         display: none;
-
     }
     #home::before {
         margin-top: -30vh;
