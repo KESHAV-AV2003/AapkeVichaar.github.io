@@ -1,5 +1,7 @@
 @media all and (max-width: 450px) {
-
+    html{
+        overflow-x: hidden;
+    }
 
     body {
         font-size: 14px;
