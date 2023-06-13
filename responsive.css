@@ -52,7 +52,7 @@
         margin-right: 151vh;
         margin-top: 10vh;
         width: 50vh;
-        margin-left: -27.5vh;
+        margin-left: -25vh;
         font-size: 5vh;
     }
     .h-secondary{
@@ -134,6 +134,10 @@
     .ic {
         margin-left: 2vh;
         width: 110vh;
+    }
+     #inspire .box img:hover{
+        width: 2vh; 
+        height: 1.5vh;
     }
 
     .more{
