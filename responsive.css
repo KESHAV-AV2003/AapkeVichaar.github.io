@@ -49,12 +49,23 @@
     .tsh{
         margin-left: 2vh;
     }
+    .openNav{
+        background-color: #6c6969;  
+    }
     #logo img{
         width: 18vh;
         height: 22vh;
         margin-left: 2vh;
     }
-      
+    #logo img{
+        width: 18vh;
+        height: 22vh;
+        margin-left: 2vh;
+    }
+    #toggleButton{
+        width: 20vh;
+        display: block;
+    }
     #logo {
         display: none;
     }
