@@ -9,16 +9,16 @@
         overflow-x:hidden;
     }
     #navbar{
-        height: 63.8vh; /* 100% Full-height */
-        width: 25%; /* 0 width - change this with JavaScript */
-        position: fixed; /* Stay in place */
-        z-index: 1; /* Stay on top */
-        top: 0; /* Stay at the top */
+        height: 59.8vh;
+        width: 20%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
         left: -250;
-        background-color: #6c6969; /* Black*/
-        overflow-x: hidden; /* Disable horizontal scroll */
-        /* padding-top: 60px; Place content 60px from the top */
-        transition: 0.5s
+        background-color: #6c6969;
+        overflow-x: hidden;
+        transition: 0.5s;
+        margin-left: 0.1vh;
     }
     #navbar.show {
         left: 0; /* Show the navbar by setting left position to 0 */
@@ -27,14 +27,14 @@
         text-decoration: none;
         font-size: 1.5vh;
         color: #ffffff;
-        width: 8vh;
-        margin-top: -33vh;
+        width: 6vh;
+        margin-top: -29vh;
         transition: 0.3s;
-        margin-left: -23vh;
-        padding-left: 10vh;
-        padding-right: 13vh;
+        margin-left: -20vh;
+        padding-left: 8vh;
+        padding-right: -18vh;
+        padding-right: 14vh;
         margin-right: -1vh;
-        border: 1px solid;
     }
     #navabr ul li a:hover{
         color: #f1f1f1;
