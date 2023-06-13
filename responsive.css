@@ -58,12 +58,7 @@
         height: 31vh;
         margin-left: -3.75vh;
     }
-    }
-    #logo img{
-        width: 18vh;
-        height: 22vh;
-        margin-left: 2vh;
-    }
+    
     #toggleButton{
         width: 20vh;
         display: block;
