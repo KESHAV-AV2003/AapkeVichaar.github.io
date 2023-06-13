@@ -54,9 +54,11 @@ const openNav = document.getElementByClassName('openNav');
 const navbar = document.getElementById('navbar');
 
 openNav.addEventListener('click', function() {
-  if (window.innerWidth < 450) {
+  if (openNav.click) {
     navbar.classList.toggle('show');
   }
+    else{
+        navbar.classlist.toggle('none');
 });
 
   
