@@ -41,11 +41,9 @@
         color: #f1f1f1;
     }
     .closebtn {
-        position: absolute;
-        margin-left: -130px;
-        margin-top: -33vh;
-        text-decoration: none;
-        color: black;
+        display: block;
+        margin-top: -25vh;
+        margin-left: 12vh;
     }
     .tsh{
         margin-left: 2vh;
