@@ -5,6 +5,8 @@
 
     body {
         font-size: 14px;
+        width:100%;
+        overflow-x:hidden;
     }
     #navbar{
         display: none;
