@@ -22,7 +22,6 @@
     }
     #navbar .show {
         left: 0; /* Show the navbar by setting left position to 0 */
-        display: block;
     }
     #navbar ul li a{
         text-decoration: none;
