@@ -24,17 +24,16 @@
         left: 0; /* Show the navbar by setting left position to 0 */
     }
     #navbar ul li a{
-       text-decoration: none;
+        text-decoration: none;
         font-size: 1.5vh;
         color: #ffffff;
         width: 6vh;
-        margin-top: -29vh;
+        margin-top: -30vh;
         transition: 0.3s;
-        margin-left: -39vh;
-        padding-left: 8vh;
-        padding-right: -18vh;
-        padding-right: 35vh;
-        margin-right: -4vh;
+        margin-left: -32vh;
+        padding-left: 1vh;
+        padding-right: 93vh;
+        margin-right: -62vh;
         border-radius: 2px;
     }
     #navabr ul li a:hover{
