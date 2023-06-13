@@ -13,12 +13,12 @@
         width: 25%;
         position: fixed;
         z-index: 1;
-        top: 0;
+        top: 20;
         left: -250;
         background-color: #6c6969;
         overflow-x: hidden;
         transition: 0.5s;
-        margin-left: 0.1vh;
+        margin-left: 6.1vh;
     }
     #navbar .show {
         left: 0; /* Show the navbar by setting left position to 0 */
