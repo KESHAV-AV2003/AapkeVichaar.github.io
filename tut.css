@@ -74,6 +74,12 @@
     height: 695px;
     top: 0px;
 }
+.openNav{
+    display: none;
+}
+.closebtn{
+    display: none;
+}
 
 #home::before {
     content: "";
