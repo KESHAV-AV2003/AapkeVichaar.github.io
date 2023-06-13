@@ -20,7 +20,7 @@
         transition: 0.5s;
         margin-left: 0.1vh;
     }
-    #navbar.show {
+    #navbar .show {
         left: 0; /* Show the navbar by setting left position to 0 */
         display: block;
     }
