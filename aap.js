@@ -48,7 +48,16 @@ function redirectToWebsite(url) {
 function openMail() {
     window.location.href = 'mailto:kesrivastava18@gmail.com';
 }
-
+/* Set the width of the side navigation to 250px */
+function openNav() {
+    document.getElementById("navbar").style.width = "250px";
+  }
+  
+  /* Set the width of the side navigation to 0 */
+  function closeNav() {
+    document.getElementById("navbar").style.width = "0";
+  }
+  
 
 
 
