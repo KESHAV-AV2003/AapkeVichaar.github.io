@@ -57,8 +57,6 @@ openNav.addEventListener('click', function() {
   if (openNav.click) {
     navbar.classList.toggle('show');
   }
-    else{
-        navbar.classlist.toggle('none');
 });
 
   
