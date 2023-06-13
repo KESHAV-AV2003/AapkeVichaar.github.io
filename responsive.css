@@ -10,31 +10,30 @@
     }
     #navbar{
         height: 63.8vh;
-        width: 25%;
+        width: 35%;
         position: fixed;
         z-index: 1;
-        top: 20;
+        top: 0;
         left: -250;
         background-color: #6c6969;
         overflow-x: hidden;
         transition: 0.5s;
-        margin-left: 6.1vh;
+        margin-left: 0.1vh;
     }
     #navbar .show {
         left: 0; /* Show the navbar by setting left position to 0 */
     }
     #navbar ul li a{
-        text-decoration: none;
-        font-size: 1.5vh;
-        color: #ffffff;
-        width: 6vh;
-        margin-top: -29vh;
-        transition: 0.3s;
-        margin-left: -20vh;
-        padding-left: 8vh;
-        padding-right: -18vh;
-        padding-right: 14vh;
-        margin-right: -1vh;
+    text-decoration: none;
+    font-size: 1.5vh;
+    color: #ffffff;
+    width: 6vh;
+    margin-top: -29vh;
+    transition: 0.3s;
+    margin-left: -4vh;
+    padding-left: 8vh;
+    padding-right: 2vh;
+    margin-right: -6vh;
     }
     #navabr ul li a:hover{
         color: #f1f1f1;
