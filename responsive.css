@@ -29,11 +29,11 @@
         height: 92vh;
     }
     .homeP {
-    width: 33vh;
-    display: flex;
-    justify-content: center;
-    margin-left: 8vh;
-    margin-top: 2vh;
+        width: 33vh;
+        display: flex;
+        justify-content: center;
+        margin-left: 8vh;
+        margin-top: 2vh;
     }
 
     .bothHP {
@@ -60,11 +60,12 @@
         margin-right: 75vh;
     }
     .knowmore1{
-        margin-left: -94vh;
+        margin-left: -89vh;
         background-color: rgb(238, 237, 245);
         color: rgb(14, 104, 239);
-        width: 7vh;
-        margin-top: 82vh;
+        width: 13vh;
+        margin-top: 80vh;
+    
     }
     .knowmore2{
         margin-left: -91vh;
