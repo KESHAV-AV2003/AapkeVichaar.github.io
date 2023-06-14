@@ -74,10 +74,10 @@
     height: 695px;
     top: 0px;
 }
-.openNav{
+#openNav{
     display: none;
 }
-.closebtn{
+#closebtn{
     display: none;
 }
 
