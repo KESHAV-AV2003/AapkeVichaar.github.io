@@ -40,7 +40,7 @@
     #navabr ul li a:hover{
         color: #f1f1f1;
     }
-    .closebtn {
+    #closebtn {
         display: block;
         margin-top: -25vh;
         margin-left: 12vh;
@@ -48,8 +48,9 @@
     .tsh{
         margin-left: 2vh;
     }
-    .openNav{
-        background-color: #6c6969;  
+    #openNav{
+        background-color: #6c6969;
+        display: flex;
     }
     #logo img{
         width: 29vh;
