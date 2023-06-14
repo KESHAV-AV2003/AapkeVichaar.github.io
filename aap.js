@@ -50,13 +50,11 @@ function openMail() {
 }
 
 
-const openNav = document.getElementByClassName('openNav');
-const navbar = document.getElementById('navbar');
+var openNav = document.getElementById('openNav');
+var navbar = document.getElementById('navbar');
 
 openNav.addEventListener('click', function() {
-  if (openNav.click) {
-    navbar.classList.toggle('show');
-  }
+  navbar.style.display = 'block';
 });
 
   
