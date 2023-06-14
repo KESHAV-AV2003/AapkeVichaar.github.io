@@ -319,6 +319,10 @@
     margin-top: -30px;
     padding: 20px;
 }
+.more{
+    margin-left: 14vh; 
+    font-size: 18px;
+}
 
 /* .copyright{
     margin-left: 60vh;
