@@ -91,12 +91,6 @@
     opacity: 1;
 }
 
-#home h1 {
-    color: white;
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-}
-
 #home p {
     color: white;
     text-align: center;
@@ -189,7 +183,7 @@
     font-size: 3.2rem;
     padding: 20px;
     font-family: 'Dancing Script', cursive;
-    margin-left: 60vh;
+    margin-left: 31vh;
     width: 116vh;
 }
 
