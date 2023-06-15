@@ -1,20 +1,241 @@
-<!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css?family=Open Sans" rel="stylesheet" type="text/css">
+<style>
+    .myform {
+        font-family: Open Sans;
+    }
+
+    .img1 {
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+
+    }
+
+    .body {}
+
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: red;
+        color: white;
+        text-align: center;
+    }
+
+    .login-box {
+        margin: 0% 37% 0%;
+        padding: 10px 30px 25px 25px;
+        background: none repeat scroll 0% 0% rgb(241, 241, 241);
+        border: 1px solid rgb(229, 229, 229);
+        width: 300px;
+
+        align: center;
+    }
+
+    .login-box div {
+        margin: 0px 0px 1.5em;
+    }
+
+    .login-box h2 {
+        font-size: 16px;
+        line-height: 17px;
+        font-weight: normal;
+    }
+
+    .login-box label {
+        display: block;
+    }
+
+    .login-box .email-label,
+    .login-box .passwd-label {
+        font-weight: bold;
+        margin: 0px 0px 0.5em;
+        display: block;
+        -moz-user-select: none;
+    }
+
+    .login-box label.remember {
+        display: inline-block;
+        vertical-align: top;
+        margin: 9px 0px 0px;
+    }
+
+    strong {
+        color: rgb(34, 34, 34);
+    }
+
+    .login-box input[type="email"],
+    .login-box input[type="password"] {
+        width: 100%;
+        height: 32px;
+        font-size: 15px;
+        direction: ltr;
+    }
+
+    input[type="email"],
+    input[type="password"] {
+        display: inline-block;
+        height: 29px;
+        margin: 0px;
+        padding: 0px 8px;
+        background: none repeat scroll 0% 0% rgb(255, 255, 255);
+        border-right: 1px solid rgb(217, 217, 217);
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(192, 192, 192) rgb(217, 217, 217) rgb(217, 217, 217);
+        -moz-border-top-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        border-image: none;
+        -moz-box-sizing: border-box;
+        border-radius: 1px 1px 1px 1px;
+    }
+
+    ol,
+    ul {
+        list-style: none outside none;
+        line-height: 17px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    a {
+        color: rgb(17, 85, 204);
+        text-decoration: none;
+    }
+
+    a#forgot_password {
+        display: block;
+    }
+
+    .login-box input[type="submit"] {
+        margin: 0px 1.5em 1.2em 0px;
+        height: 32px;
+        font-size: 13px;
+    }
+
+    .button,
+    input.button[type="submit"] {
+        height: 29px;
+        line-height: 29px;
+        vertical-align: bottom;
+        margin: 0px;
+    }
+
+    .button-submit {
+        border: 1px solid rgb(48, 121, 237);
+        color: #fff;
+        text-shadow: 0px 1px rgba(0, 0, 0, 0.1);
+        background-color: #478BF9;
+    }
+
+    .button {
+        display: inline-block;
+        min-width: 46px;
+        text-align: center;
+        color: #fff;
+        font-size: 11px;
+        font-weight: bold;
+        height: 27px;
+        padding: 0px 8px;
+        line-height: 27px;
+        border-radius: 2px 2px 2px 2px;
+        transition: all 0.218s ease 0s;
+        border: 1px solid rgb(220, 220, 220);
+        background-color: #478BF9;
+        -moz-user-select: none;
+        cursor: default;
+    }
+
+    .remember-label {
+        font-weight: normal;
+        color: rgb(102, 102, 102);
+        line-height: 0;
+        padding: 0px 0px 0px 0.4em;
+        -moz-user-select: none;
+    }
+
+    .login-box h2 strong {
+        display: inline-block;
+        float: right;
+        height: 19px;
+        width: 52px;
+        background: url("google.png") no-repeat scroll 0% 0% transparent;
+    }
+
+    input[type="email"]:focus,
+    input[type="password"]:focus {
+        outline: medium none;
+        border: 1px solid rgb(77, 144, 254);
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3) inset;
+    }
+
+    .centre {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+    }
+
+    .myform {
+        text-align: center;
+        font-size: 18px;
+        color: #555557;
+    }
+
+    .img1 {
+        border-radius: 50%;
+        margin-left: 125px;
+        margin-top: 18px;
+    }
+</style>
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <title>Gmail Login</title>
-  <link rel="stylesheet" type="text/css" href="../static/tut.css">
-  <link rel="stylesheet" href="../static/gmail.css">
-  <script src="/Website loads/html/aapke vichaar web/aap.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/style1.css">
+    <title>EDC</title>
 </head>
-<body>
-  <div class="login-container">
-    <h1>Gmail Login</h1>
-    <form method="get">
-      <input type="email" id="email" placeholder="Email" name="email">
-      <input type="password" id="password" placeholder="Password" name="password">
-      <button type="submit">Sign In</button>
+<img src="https://static.adweek.com/adweek.com-prod/wp-content/uploads/files/blogs/google-logo-hed-2014.jpg"
+    height="100px" width="250px" class="centre" align="centre">
+<div class="myform">
+    <h1 text-all>
+        One account. All of Google.</h1>
+    <h3>Sign in to continue to Gmail.
+    </h3>
+</div>
+<div class="login-box">
+    <img src="http://www.acetech-india.com/wp-content/uploads/2016/07/analyst-placeholder-avatar.png" class="img1">
+    <br>
+    <h2>Sign in</h2>
+    <form action="" method="post">
+        <div class="email-div">
+            <label for="Email"><strong class="email-label">Email</strong></label>
+            <input spellcheck="false" name="Email" id="Email" value="" type="email">
+        </div>
+        <div class="passwd-div">
+            <label for="Passwd"><strong class="passwd-label">Password</strong></label>
+            <input name="Passwd" id="Passwd" type="password">
+        </div>
+        <input class="button button-submit" name="signIn" id="signIn" value="Sign in" type="submit">
+        <br>
+        <label class="remember">
+            <input value="yes" checked="checked" type="checkbox">
+            <strong class="remember-label"> Stay signed in </strong> </label>
     </form>
-  </div>
-</body>
-</html>
+    <ul>
+        <li> <a id="forgot_password" href=""> Can't access your account? </a> </li>
+    </ul>
+</div>
