@@ -82,10 +82,10 @@
         height: 92vh;
     }
     .homeP {
-        width: 33vh;
+        width: 37vh;
         display: flex;
         justify-content: center;
-        margin-left: 8vh;
+        margin-left: 5vh;
         margin-top: -2vh;
     }
 
