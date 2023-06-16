@@ -28,13 +28,13 @@
         text-decoration: none;
         font-size: 1.5vh;
         color: #ffffff;
-        width: 6vh;
-        margin-top: -29vh;
+        width: 61vh;
+        margin-top: -71vh;
         transition: 0.3s;
-        margin-left: -20vh;
-        padding-left: 11vh;
-        padding-right: 43vh;
-        margin-right: -30vh;
+        margin-left: 0vh;
+        padding-left: -11vh;
+        padding-right: 12vh;
+        margin-right: -55vh;
         border-radius: 2px;
     }
     #navabr ul li a:hover{
