@@ -42,8 +42,10 @@
     }
     #closebtn {
         display: block;
-        margin-top: -25vh;
-        margin-left: 12vh;
+        margin-top: -76vh;
+        margin-left: 18vh;
+        text-decoration: none;
+        color: white;
     }
     .tsh{
         margin-left: 2vh;
