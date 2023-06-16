@@ -10,7 +10,7 @@
     }
     #navbar{
         display: none;
-        height: 63.8vh;
+        height: 81.5vh;
         width: 35%;
         position: fixed;
         z-index: 1;
@@ -58,7 +58,8 @@
         margin-left: -3.75vh;
     }
     #logo {
-        display: none;
+        
+        margin: 215px 77px 5px 67px;
     }
     #home::before {
         margin-top: -30vh;
