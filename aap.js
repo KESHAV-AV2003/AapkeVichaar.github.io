@@ -62,8 +62,15 @@ function toggleNavbar() {
 }
 
 function closeNav() {
-    var sideNav = document.getElementById("mySidenav");
-    sideNav.style.width = "0"; // Set the width of sideNav to 0 to hide it
+    var navbar = document.getElementById("navbar");
+    // sideNav.style.width = "none"; // Set the width of sideNav to 0 to hide it
+    var sidenav = document.getElementById('mySidenav');
+    if(navbar.style.display=="block"){
+        navbar.style.display="none";
+    }
+    else{
+        navbar.style.display="block"
+    }
 }
 //login
 function onSignIn(googleUser) {
