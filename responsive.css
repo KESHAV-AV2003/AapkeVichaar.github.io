@@ -68,7 +68,7 @@
     }
 
     .h-primary {
-        margin-left: -13.5rem;
+        margin-left: 3.5rem;
         margin-top: -28vh;
         font-size: 3vh;
     }
@@ -166,9 +166,9 @@
     }
 
     .center {
-        width: 38vh;
+        width: 35vh;
         margin-top: 6vh;
-        margin-left: -112.5vh;
+        margin-left: -106vh;
         width: fit-content;
         block-size: fit-content;
     }
