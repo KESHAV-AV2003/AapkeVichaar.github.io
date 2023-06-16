@@ -167,7 +167,7 @@
     }
 
     .center {
-        width: fit-content;
+        width: 40vh;
         margin-top: 12vh;
         margin-left: -116vh;
         display: flex;
