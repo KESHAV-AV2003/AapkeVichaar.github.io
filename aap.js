@@ -49,7 +49,7 @@ function openMail() {
     window.location.href = 'mailto:kesrivastava18@gmail.com';
 }
 
-
+//side navbar
 function toggleNavbar() {
     var navbar = document.getElementById("navbar");
     var sideNav = document.getElementById("mySidenav");
@@ -65,7 +65,14 @@ function closeNav() {
     var sideNav = document.getElementById("mySidenav");
     sideNav.style.width = "0"; // Set the width of sideNav to 0 to hide it
 }
-
+//login
+function onSignIn(googleUser) {
+  var profile = googleUser.getBasicProfile();
+  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+  console.log('Name: ' + profile.getName());
+  console.log('Image URL: ' + profile.getImageUrl());
+  console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+}
   
 
 
