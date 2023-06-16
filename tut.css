@@ -319,6 +319,10 @@
     margin-left: 14vh; 
     font-size: 18px;
 }
+.g-signin2{
+    margin-left: 193vh;
+    /* width: 20vh; */
+}
 
 /* .copyright{
     margin-left: 60vh;
