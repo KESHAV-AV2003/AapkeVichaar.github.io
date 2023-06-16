@@ -53,6 +53,7 @@
     }
     #openNav{
         background-color: #black;
+        color: white;
         display: flex;
     }
     #logo img{
