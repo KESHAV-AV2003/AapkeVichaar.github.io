@@ -50,12 +50,21 @@ function openMail() {
 }
 
 
-var openNav = document.getElementById('openNav');
-var navbar = document.getElementById('navbar');
+function toggleNavbar() {
+    var navbar = document.getElementById("navbar");
+    var sideNav = document.getElementById("mySidenav");
+    if (navbar.style.display === "none") {
+        navbar.style.display = "block";
+    } else {
+        navbar.style.display = "none";
+        sideNav.style.width = "0"; // Set the width of sideNav to 0 to hide it
+    }
+}
 
-openNav.addEventListener('click', function() {
-  navbar.style.display = 'block';
-});
+function closeNav() {
+    var sideNav = document.getElementById("mySidenav");
+    sideNav.style.width = "0"; // Set the width of sideNav to 0 to hide it
+}
 
   
 
