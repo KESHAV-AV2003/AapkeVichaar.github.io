@@ -210,18 +210,18 @@
   .bg img{
     width: 120%;
   }
-  .wta1 h1{
+  .wta1{
     margin-top: 4vh;
-    margin-left: 3vh;
+    margin-left: -3vh;
     width: 43vh;
   }
   .intro01{
     width: 90%;
-    margin-left: 8vh;
+    margin-left: 4vh;
     margin-top: 11vh;
   }
   .joc{
-    margin-top: 47vh;
+    margin-top: 27vh;
     color: black;
     margin-left: 8vh;
     width: 39vh;
