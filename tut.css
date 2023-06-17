@@ -325,6 +325,11 @@
     margin-left: 193vh;
     /* width: 20vh; */
 }
+.abcRioButton{
+    height: 33px;
+    width: 86px;
+    border-radius: 21px;
+}
 
 /* .copyright{
     margin-left: 60vh;
