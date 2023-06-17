@@ -54,10 +54,10 @@
         margin-left: -20vh;
         width: 47vh;
     }
-    #openNav{
+    #toggleNav{
         background-color: #black;
         color: white;
-        display: flex;
+        display: block;
     }
     #logo img{
         width: 25vh;
