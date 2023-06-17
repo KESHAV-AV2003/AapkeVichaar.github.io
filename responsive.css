@@ -58,6 +58,8 @@
         background-color: #black;
         color: white;
         display: block;
+        margin-left:2vh;
+        width:3vh;
     }
     #logo img{
         width: 25vh;
