@@ -77,9 +77,16 @@
 #openNav{
     display: none;
 }
-#closebtn{
+#closeNav{
     display: none;
 }
+#toggleNav{
+    display: none;
+}
+.signOut{
+    display:none;
+}
+    
 
 #home::before {
     content: "";
