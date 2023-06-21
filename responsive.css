@@ -45,8 +45,8 @@
     }
     #closeNav {
         display: block;
-        margin-top: 5.5vh;
-        margin-left: 10vh;
+        margin-top: -5.5vh;
+        margin-left: 8vh;
         text-decoration: none;
         color: white;
         background-color: black;
