@@ -86,13 +86,11 @@
 .signOut{
     display: none;
 }
-    
-
 #home::before {
     content: "";
     background: url(AV2\ BG2.jpg) no-repeat center center/cover;
     position: absolute;
-    height: 105%;
+    height: 107%;
     width: 100%;
     z-index: -1;
     opacity: 1;
