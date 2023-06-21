@@ -46,11 +46,10 @@
     #closeNav {
         display: block;
         width:5vh;
-        margin-top: -40.5vh;
-        margin-left: 7vh;
+        margin-top: -60.5vh;
+        margin-left: 9vh;
         text-decoration: none;
         color: white;
-        background-color: black;
     }
     .tsh{
         margin-left: -20vh;
