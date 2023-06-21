@@ -45,7 +45,7 @@
     }
     #closeNav {
         display: block;
-        width:3vh;
+        width:2vh;
         margin-top: -61.5vh;
         margin-left: 18.5vh;
         text-decoration: none;
@@ -62,8 +62,9 @@
         color: white;
         display: block;
         margin-left:2vh;
-        width:4vh;
+        width:6vh;
         height: 4vh;
+        margin-top: 2vh;
     }
     #logo img{
         width: 25vh;
