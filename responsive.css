@@ -245,6 +245,7 @@
 }
 .card-body{
     background-color: rgb(245, 213, 109);
+    height: 105vh;
 
     }
 @media all and (max-width: 400px) {
