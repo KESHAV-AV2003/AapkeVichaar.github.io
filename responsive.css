@@ -47,7 +47,7 @@
         display: block;
         width:2vh;
         margin-top: -61.5vh;
-        margin-left: 18.5vh;
+        margin-left: 19.5vh;
         text-decoration: none;
         background-color: transparent;
         color: black;
@@ -76,7 +76,7 @@
         margin: 215px 77px 5px 67px;
     }
     #home::before {
-        margin-top: -38vh;
+        margin-top: -40vh;
         width: 121%;
         margin-right: 10vh;
         height: 68vh;
