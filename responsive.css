@@ -48,11 +48,11 @@
         display: block;
         width:2vh;
         margin-top: -61.5vh;
-        margin-left: 19.5vh;
+        margin-left: 19.95vh;
         text-decoration: none;
         background-color: transparent;
         color: black;
-
+        border-radius: 2px;
     }
     .tsh{
         margin-left: -20vh;
