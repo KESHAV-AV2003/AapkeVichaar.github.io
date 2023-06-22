@@ -243,6 +243,10 @@
      margin-left: -20vh;
      background-color: rgb(245, 213, 109);
 }
+.card-body{
+    background-color: rgb(245, 213, 109);
+
+    }
 @media all and (max-width: 400px) {
     #navbar{
         display: none;
