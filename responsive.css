@@ -240,3 +240,19 @@
     margin-top: 7vh;
   }
 }
+@media all and (max-width: 400px) {
+    #navbar{
+        display: none;
+        height: 75.8vh;
+        width: 47%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: -250;
+        background-color: #6c6969;
+        overflow-x: hidden;
+        transition: 0.5s;
+        margin-left: 0.1vh;
+        border-radius: 2px;
+    
+}
