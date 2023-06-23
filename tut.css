@@ -141,12 +141,12 @@
 #inspire .box img {
     height: 150px;
     width: 250px;
-    transition: all 1s ease-in;
+/*     transition: all 1s ease-in; */
     margin-left: 30px;
     /* transition: transform 2s; */
 
 }
-.box:hover .overlay-image {
+/* .box:hover .overlay-image {
     /* opacity: -1; */
 }
 #inspire .box img:hover {
@@ -155,13 +155,13 @@
     /* transform: scaleX(-1); */
 
 }
-
+ */
 #inspire .box p {
     font-size: 1.1rem;
     font-family: Verdana;
 }
 
-.box .overlay-image {
+/* .box .overlay-image {
     position: absolute;
     top: 0;
     left: 0;
@@ -169,7 +169,7 @@
     height: 200px;
     opacity: 0;
     transition: opacity 0.5s;
-}
+} */
 
 /* Utility classes */
 .h-primaryy {
