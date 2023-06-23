@@ -244,11 +244,12 @@
      background-color: rgb(245, 213, 109);
 }
 .card-body{
+    width: 20rem;
     background-color: rgb(245, 213, 109);
-    height: 105vh;
+    height: 126vh;
     padding: 20vh;
     margin-top: -5vh;
-    margin-left: -0.3vh;
+/*     margin-left: -0.3vh; */
 
 
     }
