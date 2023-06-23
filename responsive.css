@@ -248,6 +248,8 @@
     height: 105vh;
     padding: 20vh;
     margin-top: -5vh;
+    margin-left: -0.3vh;
+
 
     }
 @media all and (max-width: 400px) {
