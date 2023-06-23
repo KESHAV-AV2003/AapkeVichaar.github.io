@@ -130,7 +130,6 @@
     margin: 35px 74px;
     border-radius: 10px;
     background-color: rgb(245, 213, 109);
-    transition: all 1s ease-in;
     box-sizing: border-box;
     position: relative;
     display: inline-block;
@@ -138,9 +137,6 @@
 
 }
 
-#inspire .box:hover {
-    background-color: peru;
-}
 
 #inspire .box img {
     height: 150px;
