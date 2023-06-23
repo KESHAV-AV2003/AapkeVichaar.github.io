@@ -246,10 +246,10 @@
 .card-body{
     width: 20rem;
     background-color: rgb(245, 213, 109);
-    height: 110vh;
+    height: 90vh;
     padding: 20vh;
     margin-top: -5vh;
-    margin-left: 0vh;
+    margin-left: 1.2vh;
 
 
     }
