@@ -332,6 +332,10 @@
     width: 86px;
     border-radius: 21px;
 }
+.card{
+    background-color: rgb(245, 213, 109);
+}
+
 
 /* .copyright{
     margin-left: 60vh;
