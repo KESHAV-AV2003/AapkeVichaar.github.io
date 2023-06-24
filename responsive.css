@@ -171,7 +171,7 @@
         flex-wrap: wrap;
         margin-left: 37.5vh;
         flex-direction: column;
-        height: 80vh;
+        height: 100vh;
         
     }
 
@@ -246,7 +246,7 @@
 .card-body{
     width: 20rem;
     background-color: rgb(245, 213, 109);
-    height: 60vh;
+    height: 80vh;
     padding: 20vh;
     margin-top: -1vh;
     margin-left: -0.2vh;
