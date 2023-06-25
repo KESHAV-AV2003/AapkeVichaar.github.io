@@ -60,6 +60,9 @@ body{
     margin-left: 25vh;
     flex-wrap: wrap;
     position: relative;
+    box-sizing: border-box;
+/*     position: relative; */
+    display: inline-block;
 }
 .inspire{
     display: grid;
