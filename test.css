@@ -156,3 +156,10 @@ body{
     margin-left: 73vh;
     font-family: 'Bebas Neue', sans-serif;
 }
+.poetsCont{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    /* height: 500vh; */
+    width: 100%;
+}
