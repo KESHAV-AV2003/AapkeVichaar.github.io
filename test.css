@@ -1,0 +1,155 @@
+body{
+    overflow-x: hidden;
+}
+.bg-body-tertiary{
+    margin-top: 2vh;
+    height: 10vh;
+}
+.container-fluid{
+    border-radius: 2vh;
+    /* background-color: rgb(158, 158, 236); */
+    background-image: linear-gradient(to right, rgb(84, 56, 243) , rgb(230, 157, 31));
+}
+.nav-link{
+    margin-left: 20vh;
+}
+.d-flex{
+    margin-right: 25vh;
+    width: 60vh;
+}
+.mb-lg-0 {
+    margin-bottom: 0!important;
+    margin-left: 20vh;}
+#home::before{
+    content: "";
+    background: url(AV2\ BG2.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+    margin-top: -15vh;
+    border-radius: 1vh;
+}
+#home p {
+    color: rgb(245, 241, 241);
+    text-align: center;
+    font-size: 2.0rem;
+    font-family: 'Pacifico', cursive;
+    margin-left: 20vh;
+    width: 180vh;
+}
+
+.h-primary {
+    color: white;
+    font-size: 3.2rem;
+    padding: 20px;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 65vh;
+    width: 160vh;
+    margin-top: 20vh;
+}
+.bothHP{
+    /* margin-top: 50vh; */
+}
+.card {
+    background-color: rgb(245, 213, 109);
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: row;
+    margin-left: 25vh;
+    flex-wrap: wrap;
+    position: relative;
+}
+.inspire{
+    display: grid;
+    flex-direction: row;
+    margin-left: -20vh;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, auto);
+    margin-top: -10vh;
+}
+.card img{
+    width: 40vh;
+}
+.h-primaryy{
+    margin-left: 72vh;
+    font-size: 3.2rem;
+    font-family: 'Caveat', cursive;
+    margin-top: 150px;
+    width: 80vh;
+}
+#fImg {
+    width: 40vh;
+    margin-left: 80vh;
+}
+
+.fa-fa-google {
+    margin-left: 3vh;
+    font-size: 50px;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.fa-git {
+    padding: 20px;
+    margin-left: 15vh;
+    cursor: pointer;
+}
+
+.fa-instagram {
+    padding: 20px;
+    cursor: pointer;
+    margin-left: 15vh;
+}
+
+.fa-linkedin-square {
+    padding: 20px;
+    cursor: pointer;
+    margin-left: 15vh;
+}
+.ic {
+    width: 100vh;
+    /* border: 2px solid black; */
+    margin-left: 61vh;
+    /* border-radius: 5px; */
+    margin-top: -30px;
+    padding: 20px;
+}
+.copyright {
+    text-align: center;
+    margin-left: -2vh;
+    margin-bottom: 1vh;
+    /* margin-left: 50vh; */
+}
+.more {
+    margin-top: 8vh;
+    font-size: 5vh;
+    margin-left:26vh;
+    font-size: 18px;
+}
+/* sliders */
+.d-block{
+    border-radius: 2vh;
+    margin-top: 60vh;
+    margin-left: 58vh;
+    width: 45%;
+    height: 80vh;
+}
+.carousel-control-prev-icon{
+    margin-top: 60vh;
+    
+    background-color: black;
+}
+.carousel-control-next-icon{
+    margin-top: 60vh;
+    background-color: black;
+}
+.carousel{
+    margin-top: -50vh;
+}
+.soundH{
+    margin-top: 50vh;
+    margin-left: 73vh;
+    font-family: 'Bebas Neue', sans-serif;
+}
