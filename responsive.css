@@ -257,17 +257,17 @@
 .d-block{
     border-radius: 3vh;
     margin-top: 10vh;
-    margin-left: 40vh;
+    margin-left: -10vh;
     width: 70%;
-    height: 80vh;
+    height: 40vh;
 }
 .carousel-control-prev-icon{
-    margin-top: -30vh;
+    margin-top: -10vh;
     
     background-color: black;
 }
 .carousel-control-next-icon{
-    margin-top: -30vh;
+    margin-top: -10vh;
     background-color: black;
 }
 .carousel{
@@ -275,7 +275,7 @@
 }
 .soundH{
     width: 100vh;
-    margin-top: -10vh;
+    margin-top: -20vh;
     margin-left: 20vh;
     font-family: 'Bebas Neue', sans-serif;
 }
