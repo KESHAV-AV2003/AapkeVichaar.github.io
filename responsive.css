@@ -16,7 +16,9 @@
         z-index: 1;
         top: 0;
         left: -250;
-        background-color: #6c6969;
+/*         background-color: #6c6969; */
+        background-image: linear-gradient(to right, rgb(84, 56, 243) , rgb(230, 157, 31));
+
         overflow-x: hidden;
         transition: 0.5s;
         margin-left: 0.1vh;
