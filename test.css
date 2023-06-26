@@ -133,9 +133,9 @@ body{
 } */
 /* sliders */
 .d-block{
-    border-radius: 2vh;
-    margin-top: 60vh;
-    margin-left: 58vh;
+    border-radius: 3vh;
+    margin-top: 40vh;
+    margin-left: 65vh;
     width: 45%;
     height: 80vh;
 }
