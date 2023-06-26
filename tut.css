@@ -335,7 +335,30 @@
 .card-body{
     background-color: rgb(245, 213, 109);
 }
-
+.d-block{
+    border-radius: 2vh;
+    margin-top: 60vh;
+    margin-left: 65vh;
+    width: 45%;
+    height: 80vh;
+}
+.carousel-control-prev-icon{
+    margin-top: 60vh;
+    
+    background-color: black;
+}
+.carousel-control-next-icon{
+    margin-top: 60vh;
+    background-color: black;
+}
+.carousel{
+    margin-top: -50vh;
+}
+.soundH{
+    margin-top: 50vh;
+    margin-left: 73vh;
+    font-family: 'Bebas Neue', sans-serif;
+}
 
 /* .copyright{
     margin-left: 60vh;
