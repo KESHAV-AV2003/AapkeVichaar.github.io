@@ -337,18 +337,18 @@
 }
 .d-block{
     border-radius: 2vh;
-    margin-top: 60vh;
-    margin-left: 65vh;
+    margin-top: 40vh;
+    margin-left: 75vh;
     width: 45%;
     height: 80vh;
 }
 .carousel-control-prev-icon{
-    margin-top: 60vh;
+    margin-top: 40vh;
     
     background-color: black;
 }
 .carousel-control-next-icon{
-    margin-top: 60vh;
+    margin-top: 40vh;
     background-color: black;
 }
 .carousel{
