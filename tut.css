@@ -335,6 +335,8 @@
 .card-body{
     background-color: rgb(245, 213, 109);
 }
+.card-title{
+    maegin=left: 5vh;
 .d-block{
     border-radius: 2vh;
     margin-top: 40vh;
