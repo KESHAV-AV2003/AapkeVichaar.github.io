@@ -240,7 +240,7 @@
     margin-top: 7vh;
   }
  .card{
-     margin-left: -19vh;
+     margin-left: -16vh;
      background-color: rgb(245, 213, 109);
 }
 .card-body{
@@ -250,7 +250,7 @@
     padding: 20vh;
     margin-top: -1vh;
     margin-left: -0.2vh;
-    border-radius: 2vh;
+    border-radius: 1vh;
 
 
     }
