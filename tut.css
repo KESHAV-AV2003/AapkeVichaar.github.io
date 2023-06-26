@@ -359,6 +359,9 @@
     margin-left: 73vh;
     font-family: 'Bebas Neue', sans-serif;
 }
+.card{
+    --bs-card-border-color: none;
+}
 
 /* .copyright{
     margin-left: 60vh;
