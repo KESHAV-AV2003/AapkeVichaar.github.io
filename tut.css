@@ -247,6 +247,9 @@
     margin-bottom: 1vh;
     /* margin-left: 50vh; */
 }
+.more{
+    margin-left: 10vh;
+}
 
 /* Clients Section  */
 #clients {
