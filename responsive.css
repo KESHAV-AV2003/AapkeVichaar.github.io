@@ -256,18 +256,18 @@
     }
 .d-block{
     border-radius: 3vh;
-    margin-top: 10vh;
-    margin-left: -10vh;
+    margin-top: 50vh;
+    margin-left: 30vh;
     width: 70%;
     height: 40vh;
 }
 .carousel-control-prev-icon{
-    margin-top: -10vh;
+    margin-top: 10vh;
     
     background-color: black;
 }
 .carousel-control-next-icon{
-    margin-top: -10vh;
+    margin-top: 10vh;
     background-color: black;
 }
 .carousel{
