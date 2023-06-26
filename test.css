@@ -20,7 +20,7 @@ body{
 .mb-lg-0 {
     margin-bottom: 0!important;
     margin-left: 20vh;}
-#home::before{
+/* #home::before{
     content: "";
     background: url(AV2\ BG2.jpg) no-repeat center center/cover;
     position: absolute;
@@ -38,9 +38,9 @@ body{
     font-family: 'Pacifico', cursive;
     margin-left: 20vh;
     width: 180vh;
-}
+} */
 
-.h-primary {
+/* .h-primary {
     color: white;
     font-size: 3.2rem;
     padding: 20px;
@@ -51,7 +51,7 @@ body{
 }
 .bothHP{
     /* margin-top: 50vh; */
-}
+} */
 .card {
     background-color: rgb(245, 213, 109);
     margin-top: 20vh;
@@ -64,18 +64,18 @@ body{
 /*     position: relative; */
     display: inline-block;
 }
-.inspire{
+/* .inspire{
     display: grid;
     flex-direction: row;
     margin-left: -20vh;
-    flex-wrap: wrap;
+/*     flex-wrap: wrap; */
     grid-template-columns: repeat(3, auto);
     margin-top: -10vh;
-}
+} */
 .card img{
     width: 40vh;
 }
-.h-primaryy{
+/* .h-primaryy{
     margin-left: 72vh;
     font-size: 3.2rem;
     font-family: 'Caveat', cursive;
@@ -85,9 +85,9 @@ body{
 #fImg {
     width: 40vh;
     margin-left: 80vh;
-}
+} */
 
-.fa-fa-google {
+/* .fa-fa-google {
     margin-left: 3vh;
     font-size: 50px;
     cursor: pointer;
@@ -130,7 +130,7 @@ body{
     font-size: 5vh;
     margin-left:26vh;
     font-size: 18px;
-}
+} */
 /* sliders */
 .d-block{
     border-radius: 2vh;
@@ -156,10 +156,10 @@ body{
     margin-left: 73vh;
     font-family: 'Bebas Neue', sans-serif;
 }
-.poetsCont{
+/* .poetsCont{
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     /* height: 500vh; */
     width: 100%;
-}
+} */
