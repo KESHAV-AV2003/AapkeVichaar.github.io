@@ -274,8 +274,9 @@
     margin-top: -50vh;
 }
 .soundH{
+    width: 100vh;
     margin-top: 50vh;
-    margin-left: 73vh;
+    margin-left: 10vh;
     font-family: 'Bebas Neue', sans-serif;
 }
 }
