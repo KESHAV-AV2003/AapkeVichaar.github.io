@@ -140,12 +140,12 @@ body{
     height: 80vh;
 }
 .carousel-control-prev-icon{
-    margin-top: 60vh;
+    margin-top: 40vh;
     
     background-color: black;
 }
 .carousel-control-next-icon{
-    margin-top: 60vh;
+    margin-top: 40vh;
     background-color: black;
 }
 .carousel{
