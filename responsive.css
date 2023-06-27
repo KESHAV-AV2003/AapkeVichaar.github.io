@@ -257,7 +257,8 @@
 .d-block{
     border-radius: 3vh;
     margin-top: 40vh;
-    margin-left: 20vh;
+    margin-left: 10vh;
+    margin-bottom: 26vh;
     width: 70%;
     height: 40vh;
 }
@@ -274,9 +275,10 @@
     margin-top: -50vh;
 }
 .soundH{
-    width: 100vh;
-    margin-top: -20vh;
-    margin-left: 20vh;
+    width: 52vh;
+    margin-top: -37vh;
+    margin-left: 3vh;
+    margin-bottom: 16vh;
     font-family: 'Bebas Neue', sans-serif;
 }
 }
