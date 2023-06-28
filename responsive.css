@@ -277,6 +277,9 @@
 .carousel-indicators{
     margin-top: -20rem;
 }
+.active{
+    margin-bottom: 11rem;
+}
 .soundH{
     width: 52vh;
     margin-top: -25vh;
