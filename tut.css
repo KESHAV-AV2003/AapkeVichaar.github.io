@@ -368,11 +368,14 @@
     --bs-card-border-color: none;
 }
 .click{
-    width: 5vh;
-    height: 5vh;
-}
-.click{
     margin-top: 20vh;
+}
+.poetsociety{
+    margin-left: 60vh;
+    margin-top: 20vh;
+}
+.hPS{
+    margin-left: 18vh;
 }
 
 /* .copyright{
