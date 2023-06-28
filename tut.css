@@ -148,7 +148,7 @@
 }
 /* .box:hover .overlay-image {
     /* opacity: -1; */
-}
+
 #inspire .box img:hover {
     height: 200px;
     width: 300px;
@@ -339,7 +339,7 @@
     background-color: rgb(245, 213, 109);
 }
 .card-title{
-    maegin=left: 5vh;
+    margin-left: 5vh;}
 .d-block{
     border-radius: 2vh;
     margin-top: 40vh;
@@ -366,6 +366,13 @@
 }
 .card{
     --bs-card-border-color: none;
+}
+.click{
+    width: 5vh;
+    height: 5vh;
+}
+.click{
+    margin-top: 20vh;
 }
 
 /* .copyright{
