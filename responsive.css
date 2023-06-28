@@ -21,7 +21,7 @@
 
         overflow-x: hidden;
         transition: 0.5s;
-        margin-left: 0.1vh;
+        margin-left: 0.5vh;
         border-radius: 2px;
     }
     #navbar .show {
