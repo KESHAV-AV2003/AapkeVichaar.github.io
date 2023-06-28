@@ -370,6 +370,11 @@
 .click{
     margin-top: 20vh;
 }
+.videoDP{
+    width: 90vh; 
+    height: 70vh; 
+    border-radius: 2vh;
+}
 .poetsociety{
     margin-left: 60vh;
     margin-top: 20vh;
