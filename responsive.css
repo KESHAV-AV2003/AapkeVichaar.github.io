@@ -242,11 +242,12 @@
     margin-top: 7vh;
   }
  .card{
+     width: 18vh;
      margin-left: -19.5vh;
      background-color: rgb(245, 213, 109);
 }
 .card-body{
-    width: 18rem;
+    width: 20rem;
     background-color: rgb(245, 213, 109);
     height: 80vh;
     padding: 20vh;
