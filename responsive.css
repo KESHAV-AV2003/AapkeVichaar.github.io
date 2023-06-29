@@ -263,12 +263,11 @@
     height: 40vh;
 }
 .carousel-control-prev-icon{
-    margin-top: 5vh;
-    
+    margin-top: 0vh;   
     background-color: black;
 }
 .carousel-control-next-icon{
-    margin-top: 5vh;
+    margin-top: 0vh;
     background-color: black;
 }
 .carousel{
