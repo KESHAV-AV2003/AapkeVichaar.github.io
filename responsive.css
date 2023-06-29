@@ -303,6 +303,12 @@
     font-size: 3vh;
     font-family: 'Ysabeau Office', sans-serif;
 }
+.hPSV{
+    width: 52vh;
+    margin-left: -3vh;
+    font-size: 3vh;
+    font-family: 'Ysabeau Office', sans-serif;
+}
 }
 @media all and (max-width: 400px) {
     #navbar{
