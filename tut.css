@@ -363,6 +363,7 @@
     margin-top: 50vh;
     margin-left: 73vh;
     font-family: 'Bebas Neue', sans-serif;
+    margin-bottom: 15vh;
 }
 .card{
     --bs-card-border-color: none;
