@@ -282,6 +282,8 @@
 }
 .soundH{
     width: 52vh;
+    font-size: 2vh;
+    background-color:  #32de84;
     margin-top: -25vh;
     margin-left: 3vh;
     margin-bottom: 16vh;
