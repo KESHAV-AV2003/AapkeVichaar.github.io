@@ -263,6 +263,14 @@
     width: 70%;
     height: 40vh;
 }
+.carousel-control-prev{
+    padding-top: 113vh;
+    padding-bottom: 4vh;
+}
+.carousel-control-next{
+    padding-top: 113vh;
+    padding-bottom: 4vh;
+}
 .carousel-control-prev-icon{
     margin-top: -5vh;   
     background-color: black;
