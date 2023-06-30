@@ -272,11 +272,13 @@
     padding-bottom: 4vh;
 }
 .carousel-control-prev-icon{
-    margin-top: -5vh;   
+
+    margin-bottom: 159vh;
     background-color: black;
 }
 .carousel-control-next-icon{
-    margin-top: -5vh;
+
+    margin-bottom: 159vh;
     background-color: black;
 }
 .carousel{
